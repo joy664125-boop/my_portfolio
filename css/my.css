@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.about-pic-primary img {
+    aspect-ratio: auto;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.about .profile {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.about .profile li span {
+    display: inline-block;
+    width: 100px;
+    opacity: 0.5;
+}
+
+
+.skill {
+    list-style: none;
+    margin: 100px 0 50px;
+}
+
+.skill li {
+    height: 6px;
+    background: transparent;
+    margin-bottom: 5.2rem;
+    padding: 0;
+    position: relative;
+}
+
+.skill li strong {
+    color: var(--color-text-dark);
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 2rem;
+    position: absolute;
+    top: -3.2rem;
+    left: 0;
+}
+
+.skill li .progress {
+    background: #999;
+    position: relative;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill li .progress::before {
+    content: "";
+    display: block;
+    height: 100%;
+    background-color: #366b5b;
+}
+
+.skill li .percent5::before {
+    width: 5%;
+}
+
+.skill li .percent10::before {
+    width: 10%;
+}
+
+.skill li .percent15::before {
+    width: 15%;
+}
+
+.skill li .percent20::before {
+    width: 20%;
+}
+
+.skill li .percent25::before {
+    width: 25%;
+}
+
+.skill li .percent30::before {
+    width: 30%;
+}
+
+.skill li .percent35::before {
+    width: 35%;
+}
+
+.skill li .percent40::before {
+    width: 40%;
+}
+
+.skill li .percent45::before {
+    width: 45%;
+}
+
+.skill li .percent50::before {
+    width: 50%;
+}
+
+.skill li .percent55::before {
+    width: 55%;
+}
+
+.skill li .percent60::before {
+    width: 60%;
+}
+
+.skill li .percent65::before {
+    width: 65%;
+}
+
+.skill li .percent70::before {
+    width: 70%;
+}
+
+.skill li .percent75::before {
+    width: 75%;
+}
+
+.skill li .percent80::before {
+    width: 80%;
+}
+
+.skill li .percent85::before {
+    width: 85%;
+}
+
+.skill li .percent90::before {
+    width: 90%;
+}
+
+.skill li .percent95::before {
+    width: 95%;
+}
+
+.skill li .percent100::before {
+    width: 100%;
+}
+
+.epilogue {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 50px 0 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 0.5;
+}
